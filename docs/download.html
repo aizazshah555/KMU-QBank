@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMU QBank — Download</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+  body {
+    background: #06080d; color: #fdf9fa; min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 20px; overflow-x: hidden;
+  }
+  .wrap { width: 100%; max-width: 560px; }
+  .head { text-align: center; margin-bottom: 32px; }
+  .head .logo { font-size: 3.5rem; margin-bottom: 12px; }
+  .head h1 { font-size: 1.6rem; font-weight: 800; color: #0ea5e9; margin-bottom: 6px; letter-spacing: 0.3px; }
+  .head p { color: #94a3b8; font-size: 0.85rem; }
+  .card {
+    background: rgba(15, 23, 42, 0.85); border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px; padding: 20px; margin-bottom: 14px;
+    display: flex; align-items: center; gap: 16px;
+    text-decoration: none; color: inherit;
+    transition: all 0.2s ease;
+  }
+  .card:hover { border-color: #0ea5e9; background: rgba(30, 41, 59, 0.95); transform: translateY(-2px); }
+  .card .icon { font-size: 2rem; flex-shrink: 0; }
+  .card .txt { flex: 1; }
+  .card .txt strong { display: block; font-size: 1rem; font-weight: 700; color: #fdf9fa; margin-bottom: 3px; }
+  .card .txt span { font-size: 0.78rem; color: #94a3b8; }
+  .card .arrow { color: #0ea5e9; font-size: 1.4rem; font-weight: 700; }
+  .foot { text-align: center; margin-top: 24px; font-size: 0.75rem; color: #64748b; line-height: 1.7; }
+  .foot b { color: #94a3b8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="head">
+    <div class="logo">⚕️</div>
+    <h1>KMU MBBS QBank</h1>
+    <p>Choose your platform to begin</p>
+  </div>
+
+  <a class="card" href="https://github.com/aizazshah555/KMU-QBank/releases/download/v2.0.0/kmu.qbank.v2.0.0.apk">
+    <div class="icon">📱</div>
+    <div class="txt">
+      <strong>Android Phone (APK)</strong>
+      <span>Best for mobile study · recommended</span>
+    </div>
+    <div class="arrow">➔</div>
+  </a>
+
+  <a class="card" href="https://github.com/aizazshah555/KMU-QBank/releases/download/v2.0.0/KMU-QBank-Student-Setup-2.0.0.exe">
+    <div class="icon">💻</div>
+    <div class="txt">
+      <strong>Windows PC (Installer)</strong>
+      <span>Full desktop app · faster typing</span>
+    </div>
+    <div class="arrow">➔</div>
+  </a>
+
+  <a class="card" href="./">
+    <div class="icon">🌐</div>
+    <div class="txt">
+      <strong>Open in Browser (Any Device)</strong>
+      <span>iPhone, Mac, or PC without install</span>
+    </div>
+    <div class="arrow">➔</div>
+  </a>
+
+  <div class="foot">
+    <b>Tip:</b> For the browser version, tap the Share menu →<br>
+    "Add to Home Screen" to install it like an app.
+  </div>
+
+</div>
+</body>
+</html>
